@@ -20,8 +20,7 @@ require.config({
                 mustache: '../../../bower_components/mustache/mustache',
                 json: '../../../bower_components/requirejs-json/json',
                 text: '../../../bower_components/requirejs-text/text',
-                underscore: '../../../bower_components/underscore/underscore',
-                iframeMessenger: '../libs/iframeMessenger'
+                underscore: '../../../bower_components/underscore/underscore'
         }
 });
 

@@ -17,9 +17,15 @@
         <script>
           var el = document.querySelector('.interactive');
           require = curl;
-          curl(['boot.js'], function(app) {
-                app.boot(el);
+          curl([
+            'boot.js',
+            'http:///interactive.guim.co.uk/libs/iframe-messenger/iframeMessenger.js'
+          ],
+          function(app, iframeMessenger) {
+            app.boot(el);
+            iframeMessenger.enableAutoResize();
           });
         </script>
+
     <body>
 </html>

@@ -2,14 +2,12 @@ define([
     'backbone',
     'collections/sheetCollection',
     'views/appView',
-    'json!data/sampleData.json',
-    'iframeMessenger'
+    'json!data/sampleData.json'
 ], function(
     Backbone,
     SheetCollection,
     AppView,
-    SampleData,
-    iframeMessenger
+    SampleData
 ) {
    'use strict';
 
@@ -43,9 +41,6 @@ define([
 
         // Start listening to URL #paths
         Backbone.history.start();
-        
-        // Enable iframe resizing on the GU site
-        iframeMessenger.enableAutoResize();
     }
     
     return {
