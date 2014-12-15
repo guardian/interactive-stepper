@@ -1,0 +1,31 @@
+{
+  "name": "Interactive stepper template",
+  "version": "0.0.0",
+  "homepage": "https://github.com/guardian/interactive-stepper",
+  "authors": [
+    "andymason <andrew.mason@guardian.co.uk>"
+  ],
+  "description": "Base template for interactives",
+  "main": "src/boot.js",
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pasteup-buttons": "~0.4.12",
+    "jquery": "~2.1.1",
+    "backbone": "~1.1.2",
+    "underscore": "~1.7.0",
+    "d3": "~3.5.2",
+    "almond": "~0.3.0",
+    "requirejs-text": "~2.0.12",
+    "mustache": "~0.8.2",
+    "requirejs-json": "~0.0.3",
+    "backbone-nested-model": "~2.0.1",
+    "backbone.crossdomain": "~0.4.0"
+  }
+}
